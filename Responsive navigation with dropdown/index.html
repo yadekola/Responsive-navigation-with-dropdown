@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Stylesheets, which include a reset stylesheet -->
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header mobile -->
+    <!-- This header is hidden on the desktop version, but shown on the mobile version, to allow is to toggle open the menu. -->
+
+    <div class="mobile-menu-btn">
+        <img src="img/burger-bar.png" alt="mobile-menu-btn">
+    </div>
+
+    <!-- Header desktop -->
+    <!-- This header is shown on the desktop AND mobile version, however it will be hidden on page load on mobile devices -->
+
+    <header class="header-main">
+
+        <!-- The header menu and logo -->
+
+        <nav>
+
+            <!-- Header logo -->
+
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="website logo">
+            </a>
+
+            <!-- Header menu -->
+
+            <ul>
+
+                <li><a href="#">Home</a></li>
+                <li class="dropdown"><a href="#">Gallery</a>
+
+                    <!-- Header dropdown menu -->
+
+                    <ul>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Video Editing</a></li>
+                        <li><a href="#">Web Dev</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Video Editing</a></li>
+                        <li><a href="#">Web Dev</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Video Editing</a></li>
+                        <li><a href="#">Last one!</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+        <!-- Header social media and search field -->
+
+        <div class="sm">
+
+            <!-- Header search field -->
+
+            <form action="" method="post">
+
+                <input type="text" name="search" placeholder="Search...">
+                <button type="submit"><img src="img/search.png" alt="search"></button>
+
+            </form>
+
+            <!-- Header social media -->
+
+            <div class="sm-links">
+
+                <a href="#"><img src="img/instagram.png" alt="instagram link"></a>
+                <a href="#"><img src="img/youtube.png" alt="youtube link"></a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+</body>
+
+<!-- JavaScript for opening and closing the mobile menu -->
+
+<script src="js/mobile-nav.js"></script>
+
+</html>
