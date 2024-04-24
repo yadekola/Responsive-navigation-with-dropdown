@@ -20,3 +20,11 @@ This project is a simple website development of using responsive navigation with
 
 ## Preview
 To preview this website click the link below:
+
+https://yadekola.github.io/Responsive-navigation-with-dropdown/
+
+## Credits
+- Created by Yakub Ojo 
+
+## License
+This project is licensed under the [MIT License](LICENSE).
